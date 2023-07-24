@@ -7,4 +7,6 @@ sentence = ["Awesome Camera. Worth the price"]
 
 $('#m_button).click(function(){
   review=$('#m_textbox').val()
+  input_data={'customer_review':review}
+  ajax_request("/predict",input data)
   })
